@@ -1,9 +1,9 @@
-/[Ll]ibrary/
-/[Tt]emp/
-/[Oo]bj/
-/[Bb]uild/
-/[Bb]uilds/
-/Assets/AssetStoreTools*
+unity-firebase-example/[Ll]ibrary/
+unity-firebase-example/[Tt]emp/
+unity-firebase-example/[Oo]bj/
+unity-firebase-example/[Bb]uild/
+unity-firebase-example/[Bb]uilds/
+unity-firebase-example/Assets/AssetStoreTools*
 
 # Visual Studio 2015 cache directory
 /.vs/
