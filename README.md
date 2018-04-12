@@ -1,8 +1,4 @@
 # unity-firebase-example
-
-![Englsh](https://img.shields.io/badge/Language-English-lightgrey.svg) 
-[![Korean](https://img.shields.io/badge/Language-Korean-blue.svg)](README_KR.md)
-
 - Unity Firebase SDK example
 
 ## Used
