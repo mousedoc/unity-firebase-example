@@ -15,6 +15,23 @@ public static class FirebaseAuthService
         }
     }
 
+    public static string UserId
+    {
+        get
+        {
+            return
+#if UNITY_EDITOR
+                "EDITOR_USER"
+#else
+                if (CurrentAuth != null && CurrentAuth.CurrentUser != null)
+                    CurrentAuth.CurrentUser.UserId;
+                else
+                    null
+#endif
+            ;
+        }
+    }
+
     public static void Initialize()
     {
 

@@ -36,7 +36,7 @@ public static class FirebaseDatabaseService
         });
     }
 
-    public static void PushValue<T>9string route, T data, Action<Task> callback)
+    public static void PushValue<T>(string route, T data, Action<Task> callback)
     {
         route.ToDatabase().Push().SetValueAsync(data).ContinueWith((task) =>
         {
@@ -54,7 +54,7 @@ public static class FirebaseDatabaseService
         });
     }
 
-    public static void RunTransaction<T>(string route, Func<MutableData, TransactionResult> transaction)
+    public static void RunTransaction(string route, Func<MutableData, TransactionResult> transaction)
     {
         route.ToDatabase().RunTransaction(transaction);
     }
