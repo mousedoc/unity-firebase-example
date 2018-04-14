@@ -32,6 +32,12 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+
+# Firebase json, plist files
+unity-firebase-example/Assets/GoogleService-Info.plist
+unity-firebase-example/Assets/GoogleService-Info.plist.meta
+unity-firebase-example/Assets/google-services.json
+unity-firebase-example/Assets/google-services.json.meta
 unity-firebase-example/Assets/Firebase/GoogleService-Info.plist.meta
 unity-firebase-example/Assets/Firebase/GoogleService-Info.plist
 unity-firebase-example/Assets/Firebase/google-services.json.meta
